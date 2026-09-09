@@ -12,3 +12,8 @@ jobs:
 
       - name: Saying hello to current user
         run: echo "hello $USER"
+  details_of_softwares:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Shows the python version
+        run: python --version
