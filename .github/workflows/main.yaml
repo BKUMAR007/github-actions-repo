@@ -1,11 +1,11 @@
 # sample workflow
 name : Sample
-on :
+on:
   push:
-    branches : [main]
+    branches: [main]
 jobs:
   greet:
     runs-on: ubuntu-latest
     steps:
       -name: Say hello to the User
-       run: echo "Hello Everyone"
+      -run: echo "Hello Everyone"
