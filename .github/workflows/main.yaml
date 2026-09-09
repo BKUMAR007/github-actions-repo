@@ -8,4 +8,4 @@ jobs:
     runs-on: ubuntu-latest
   steps:
     -name: Say hello to the User
-     run: echo "Hello $USER" 
+     run: echo "Hello Everyone"
