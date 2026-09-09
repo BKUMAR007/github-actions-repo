@@ -9,3 +9,6 @@ jobs:
     steps:
       - name: Say hello to the User
         run: echo "Hello Everyone"
+
+      - name: Saying hello to current user
+        run: echo "hello $USER"
